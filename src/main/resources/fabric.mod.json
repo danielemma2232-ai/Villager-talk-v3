@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "villagertalk",
+  "version": "${version}",
+  "name": "Villager Talk",
+  "description": "Villagers understand chat: money, death, family, emotions, gear, armour, the village. They ask questions, follow orders, tell jokes and react to yours.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.villagertalk.VillagerTalk"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
